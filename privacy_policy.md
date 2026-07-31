@@ -53,3 +53,170 @@
 **공표일**: 2026년 3월 19일  
 **시행일**: 2026년 3월 19일  
 **개발자**: 박중희
+
+
+
+
+# Privacy Policy for Scholar NotebookLM Extension
+
+Last updated: July 31, 2026
+
+## 1. Overview
+
+Scholar NotebookLM is a browser extension that assists users in collecting, organizing, analyzing, and reusing academic research content from Google NotebookLM.
+
+This Privacy Policy explains what data the extension processes and when user-selected data may be transmitted to an external service.
+
+## 2. Local Data Storage
+
+The extension may store the following information in the browser’s local extension storage:
+
+- user preferences;
+- saved academic prompts;
+- user-created research notes;
+- saved scraps;
+- AI provider settings;
+- local AI server connection settings;
+- optional GitHub synchronization settings; and
+- extension interface state.
+
+This information is stored primarily in chrome.storage.local.
+
+The developer does not operate a separate server for storing users’ research documents.
+
+## 3. User-Provided Content
+
+The extension may process the following content when the user explicitly invokes a related feature:
+
+- text selected by the user;
+- NotebookLM responses selected or copied by the user;
+- prompts entered by the user;
+- publication search queries;
+- research notes and scraps;
+- citations and reference metadata; and
+- documents selected by the user for optional synchronization.
+
+The extension does not automatically collect the full contents of every webpage visited by the user.
+
+## 4. External AI Services
+
+When a user explicitly requests AI analysis or text generation, the prompt or selected content may be transmitted to the AI provider selected by the user.
+
+Supported services may include:
+
+- Google Gemini;
+- DeepSeek;
+- a user-operated LM Studio server;
+- a user-operated Ollama server; and
+- another compatible AI endpoint configured by the user.
+
+Only the content entered or selected by the user for the requested operation is transmitted.
+
+Third-party services process data according to their own privacy policies.
+
+## 5. Academic Search Services
+
+When a user initiates a publication or citation search, the search query may be transmitted to academic metadata providers such as:
+
+- OpenAlex; and
+- Crossref.
+
+The returned metadata may include publication titles, authors, DOI values, publication years, journal names, and related citation information.
+
+## 6. GitHub Synchronization
+
+GitHub synchronization operates only when it has been configured and directly initiated by the user.
+
+The extension may transmit user-selected prompts, research notes, or documents to a GitHub repository selected by the user.
+
+The developer does not store the user’s GitHub credentials or synchronized documents on a separate developer-operated server.
+
+## 7. Clipboard Access
+
+Clipboard reading is used only when the user explicitly invokes a feature such as:
+
+- importing clipboard content;
+- scraping a copied NotebookLM response; or
+- importing copied research text.
+
+Clipboard writing is used only when the user explicitly invokes a feature such as:
+
+- Copy;
+- ToMD;
+- transfer of research results; or
+- copying content to a supported writing or presentation tool.
+
+The extension does not continuously monitor the clipboard and does not read clipboard content merely because a webpage has been opened.
+
+## 8. Access to the Current Page
+
+The optional insert-into-current-page feature temporarily accesses the active tab only after a direct user action.
+
+This access is limited to:
+
+- obtaining text explicitly selected by the user;
+- identifying the text field or editable element currently focused by the user; and
+- inserting user-selected content at the current cursor position.
+
+The extension does not maintain permanent access to all websites and does not collect browsing history.
+
+## 9. Information Not Collected
+
+The extension is not designed to collect or store:
+
+- complete browsing history;
+- passwords;
+- financial information;
+- payment-card information;
+- health information;
+- precise location information;
+- authentication codes; or
+- behavioral profiles for advertising.
+
+Password, payment, and authentication fields are excluded from page-insertion functionality.
+
+## 10. Data Sales and Advertising
+
+The developer does not sell user data.
+
+User data is not used for:
+
+- personalized advertising;
+- credit assessment;
+- insurance assessment;
+- third-party marketing; or
+- profiling of user interests.
+
+## 11. Data Retention and Deletion
+
+Data stored in the browser’s local extension storage can be deleted by the user.
+
+Users may delete stored data by:
+
+- using an available data deletion feature in the extension;
+- clearing the extension’s stored browser data; or
+- uninstalling the extension.
+
+Data transmitted to a third-party service is retained and deleted according to that service’s policies.
+
+## 12. Security
+
+The extension is designed to request only the permissions required for its user-facing features.
+
+API keys and authentication information are processed only as needed to provide user-configured functions and are not transmitted to a developer-operated server.
+
+No internet transmission or browser storage mechanism can be guaranteed to be absolutely secure. Users should also review the security and privacy policies of any external service they choose to use.
+
+## 13. Children’s Privacy
+
+The extension is not designed to intentionally collect personal information from children.
+
+## 14. Changes to This Policy
+
+This Privacy Policy may be updated when the extension’s features, permissions, or use of external services changes.
+
+Material changes may be disclosed through the extension description or update notes.
+
+## 15. Contact
+
+Privacy-related inquiries may be submitted through the developer contact information displayed on the Chrome Web Store listing.
