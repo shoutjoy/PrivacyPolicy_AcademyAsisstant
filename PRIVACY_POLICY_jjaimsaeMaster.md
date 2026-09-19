@@ -239,5 +239,5 @@ Chrome 브라우저 또는 관련 API를 통해 얻은 사용자 정보는 본 �
 
 JJaIMsae Master의 개인정보 처리 또는 데이터 삭제에 관한 문의는 아래 연락처를 이용할 수 있습니다.
 
-**개발자:** 박중희
+**개발자:** Jena Park(jhp)
 **이메일:** [shoutjoy1@gmail.com](mailto:shoutjoy1@gmail.com)
